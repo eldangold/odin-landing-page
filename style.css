@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.top-button {
+    background-color: #3882F6;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    margin-top: auto;
+}
