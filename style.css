@@ -31,6 +31,21 @@ li {
     color: #E5E7EB;
 }
 
+ul {
+    display: flex;
+}
+
+.header-link {
+    display: flex;
+} 
+
+.links {
+    display: flex;
+    margin-left: auto;
+    gap: 28px;
+    margin-right: 25px;
+}
+
 footer {
     margin-top: auto;
 }
