@@ -37,7 +37,7 @@ h1 {
     color: #F9FAF8;
 }
 
-.header-link {
+.header-link, .subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
