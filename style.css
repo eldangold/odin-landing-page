@@ -11,7 +11,7 @@ footer {
     margin-top: auto;
     justify-content: center;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     min-height: 55px;
     align-items: center;
     font-size: larger;
@@ -31,7 +31,7 @@ h1 {
     flex-direction: column;
 }
 
-.header-logo {
+.header-logo, .promo-header {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -73,9 +73,9 @@ li {
     background-color: #3882F6;
     border-radius: 5px;
     border: 0px;
-    width: 120px;
-    height: 25px;
-    color: white;
+    width: 130px;
+    height: 35px;
+    color: #F9FAF8;
     font-weight: bold;
 }
 
@@ -130,5 +130,29 @@ li {
     width: 50%;
     align-self: center;
     background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    padding: 60px;
+}
+
+.promo p {
+    margin: 0px;
+}
+
+.promo-subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.bottom-button {
     border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #F9FAF8;
 }
