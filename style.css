@@ -20,6 +20,7 @@ h1 {
     background-color: #3882F6;
     border-radius: 5px;
     border: 0px;
+    max-width: 80px;
 }
 
 li {
