@@ -124,3 +124,10 @@ li {
     align-items: center;
     padding: 100px 400px 100px 400px;
 }
+
+.promo {
+    display: flex;
+    width: 50%;
+    align-self: center;
+    background-color: #3882F6;
+}
