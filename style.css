@@ -6,11 +6,15 @@ body {
     gap: 50px;
 }
 
-.top {
+.top-bg {
     background-color: #1F2937;
+}
+
+.top {
     display: flex;
     flex-direction: column;
     padding: 0px 80px 0px 80px;
+    margin: 35px 70px 35px 70px;
 }
 
 h1 {
@@ -70,6 +74,11 @@ footer {
 .top-content {
     display: flex;
     margin: 30px 0 30px 0;
+}
+
+.top-content img {
+    max-width: 200px;
+    margin-left: auto;
 }
 
 .block-two-intro {
