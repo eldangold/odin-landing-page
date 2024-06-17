@@ -6,15 +6,14 @@ body {
     gap: 50px;
 }
 
-.top-bg {
-    background-color: #1F2937;
-}
-
-.top {
+footer {
     display: flex;
-    flex-direction: column;
-    padding: 0px 80px 0px 80px;
-    margin: 35px 70px 35px 70px;
+    margin-top: auto;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    min-height: 55px;
+    align-items: center;
 }
 
 h1 {
@@ -22,16 +21,9 @@ h1 {
     color: #f9faf8;
 }
 
-.top-button {
-    background-color: #3882F6;
-    border-radius: 5px;
-    border: 0px;
-    max-width: 80px;
-}
-
-li {
-    list-style-type: none;
-
+.header {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-logo {
@@ -56,19 +48,27 @@ ul {
     gap: 28px;
 }
 
-footer {
-    display: flex;
-    margin-top: auto;
-    justify-content: center;
-    background-color: #1F2937;
-    color: white;
-    min-height: 55px;
-    align-items: center;
+li {
+    list-style-type: none;
+
 }
 
-.header {
+.top-bg {
+    background-color: #1F2937;
+}
+
+.top {
     display: flex;
     flex-direction: column;
+    padding: 0px 80px 0px 80px;
+    margin: 35px 70px 35px 70px;
+}
+
+.top-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0px;
+    max-width: 80px;
 }
 
 .top-content {
