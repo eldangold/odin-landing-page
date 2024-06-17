@@ -8,7 +8,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    margin: 0px;
+
 }
 
 h1 {
@@ -47,9 +47,23 @@ ul {
     display: flex;
     margin-left: auto;
     gap: 28px;
-    margin-right: 25px;
+    xmargin-right: 25px;
 }
 
 footer {
     margin-top: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content {
+    display: flex;
+    gap: 60px;
+}
+
+.top-img {
+
 }
