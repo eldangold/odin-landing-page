@@ -69,3 +69,15 @@ footer {
 .top-img {
 
 }
+
+.block-two-intro {
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937;
+   text-align: center;
+}
+
+.block-two-images {
+    display: flex;
+    justify-content: center;
+}
